@@ -23,6 +23,3 @@ The application code is branched from AOSP and is open source. Additional featur
 
 # License
 Apache 2.0
-
-# Code coverage
-[![Codecov](https://codecov.io/gh/yuriykulikov/AlarmClock/branch/develop/graphs/tree.svg)](https://codecov.io/gh/yuriykulikov/AlarmClock)
