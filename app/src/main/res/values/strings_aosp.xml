@@ -33,27 +33,27 @@
     <string name="alarm_list_title">Alarms</string>
 
     <!-- Context Menu Item on Alarm Settings screen: Enable alarm -->
-    <string name="add_alarm">Add alarm</string>
+    <string name="add_alarm">Add</string>
 
     <!-- Context Menu Item on Alarm Settings screen: Disable alarm -->
     <string name="delete_alarm">Delete alarm</string>
 
     <!-- Delete alarm confirmation dialog message. -->
-    <string name="enable_alarm">Turn alarm on</string>
+    <string name="enable_alarm">Enable Alarm</string>
 
     <!-- Menu item on Alarm Clock screen: Show clock -->
 
     <!-- Menu item on Alarm Clock screen: Hide clock -->
 
     <!-- Setting label on Set alarm screen: Label -->
-    <string name="disable_alarm">Turn alarm off</string>
+    <string name="disable_alarm">Disable Alarm</string>
 
     <!-- Default label to display for an alarm -->
 
     <!-- Preference category on Alarm Settings screen: Set alarm -->
 
     <!-- Setting labels on Set alarm screen: Vibration on or off -->
-    <string name="delete_alarm_confirm">Delete this alarm?</string>
+    <string name="delete_alarm_confirm">Remove this alarm?</string>
 
     <!-- Setting labels on Set alarm screen: Repeat -->
     <string name="label">Label</string>
@@ -123,7 +123,7 @@
          screen to identify repetition schedule: special case for when
          the alarm is set to repeat every day
     -->
-    <string name="every_day">Every day</string>
+    <string name="every_day">Everyday</string>
 
     <!--
          Repeat options that appear under an alarm on main Alarm Clock
@@ -157,7 +157,7 @@
     <string name="alarm_in_silent_mode_title">Alarm in silent mode</string>
 
     <!-- Setting summary for whether the alarm should play in silent mode. -->
-    <string name="alarm_in_silent_mode_summary">Play alarm even when the phone is in silent mode</string>
+    <string name="alarm_in_silent_mode_summary">Plays alarm even when the phone is in silent mode</string>
 
     <!-- Setting title for changing the snooze duration. -->
     <string name="snooze_duration_title">Snooze duration</string>

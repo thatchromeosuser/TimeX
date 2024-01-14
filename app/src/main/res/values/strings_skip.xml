@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="skip">Skip</string>
+    <string name="skip">Skip for today</string>
     <string name="notification_alarm_is_about_to_go_off">Alarm is about to go off on</string>
     <string name="skip_duration_title">Skip alarm notification</string>
     <string-array name="skip_duration_entries">

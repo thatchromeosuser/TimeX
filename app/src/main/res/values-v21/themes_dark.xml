@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <!-- List, details and settings -->
-    <style name="DefaultDarkTheme" parent="Theme.AppCompat">
+    <style name="DefaultDarkTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- accent - buttons, accented text -->
         <item name="colorAccent">@color/dark_secondary</item>
         <!-- FAB color-->
@@ -30,9 +30,9 @@
         <!-- notification bar color -->
         <item name="android:colorPrimaryDark">@color/dark_surface</item>
         <!-- action bar -->
-        <item name="titleTextColor">@color/dark_on_surface</item>
+        <!-- <item name="titleTextColor">@color/dark_on_surface</item>
         <item name="colorPrimary">@color/dark_surface</item>
-        <item name="android:colorPrimary">@color/dark_surface</item>
+        <item name="android:colorPrimary">@color/dark_surface</item> -->
         <!-- navigation bar color -->
         <item name="android:navigationBarColor">@color/dark_background</item>
 

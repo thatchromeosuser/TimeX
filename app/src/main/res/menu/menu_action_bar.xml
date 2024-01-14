@@ -21,7 +21,9 @@
         android:id="@+id/set_alarm_menu_delete_alarm"
         android:icon="@drawable/ic_baseline_delete_24"
         app:showAsAction="ifRoom|withText"
-        android:title="@string/delete_alarm" />
+        android:title="@string/delete_alarm" >
+        <menu />
+    </item>
     <item
         android:id="@+id/menu_item_settings"
         android:icon="@android:drawable/ic_menu_preferences"
@@ -30,13 +32,8 @@
     <item
         android:id="@+id/menu_bugreport"
         android:icon="@android:drawable/ic_menu_send"
-        app:showAsAction="never"
-        android:title="@string/menu_bugreport" />
-    <item
-        android:id="@+id/menu_review"
-        android:icon="@android:drawable/ic_menu_edit"
-        app:showAsAction="never"
-        android:title="@string/dialog_say_thanks_title" />
+        android:title="@string/menu_bugreport"
+        app:showAsAction="never" />
     <item
         android:id="@+id/menu_share"
         app:actionProviderClass="androidx.appcompat.widget.ShareActionProvider"

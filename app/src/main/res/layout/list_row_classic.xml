@@ -20,9 +20,10 @@
     android:baselineAligned="true"
     android:orientation="horizontal">
 
-    <com.better.alarm.view.DontPressWithParentLayout
+    <com.justj.timex.view.DontPressWithParentLayout
         android:id="@+id/list_row_on_off_checkbox_container"
         style="@style/alarm_list_left_column"
+        android:layout_width="56dp"
         android:gravity="center">
 
         <CheckBox
@@ -34,7 +35,7 @@
             android:duplicateParentState="true"
             android:focusable="false" />
 
-    </com.better.alarm.view.DontPressWithParentLayout>
+    </com.justj.timex.view.DontPressWithParentLayout>
 
     <LinearLayout
         android:id="@+id/list_row_digital_clock_container"
@@ -44,7 +45,7 @@
         android:longClickable="false"
         android:orientation="vertical">
 
-        <com.better.alarm.view.DigitalClock
+        <com.justj.timex.view.DigitalClock
             android:id="@+id/list_row_digital_clock"
             android:layout_width="match_parent"
             android:layout_height="40dp"
@@ -65,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="bottom" />
-        </com.better.alarm.view.DigitalClock>
+        </com.justj.timex.view.DigitalClock>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -90,7 +91,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <com.better.alarm.view.DontPressWithParentLayout
+    <com.justj.timex.view.DontPressWithParentLayout
         android:id="@+id/details_button_container"
         style="@style/alarm_list_left_column"
         android:gravity="center">
@@ -120,6 +121,6 @@
                 android:textStyle="normal"
                 app:tint="?android:attr/textColorPrimary" />
         </RelativeLayout>
-    </com.better.alarm.view.DontPressWithParentLayout>
+    </com.justj.timex.view.DontPressWithParentLayout>
 
 </LinearLayout>

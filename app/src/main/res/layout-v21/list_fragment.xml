@@ -8,11 +8,13 @@
 
     <ListView
         android:id="@+id/list_fragment_list"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_marginLeft="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:layout_marginBottom="72dp"
         android:layout_weight="1"
         tools:layout="@layout/list_fragment"
@@ -24,7 +26,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_gravity="bottom|right"
+        android:layout_gravity="bottom|center_horizontal"
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="100dp"
         android:backgroundTint="?attr/listFabColor"
@@ -84,7 +86,7 @@
 
                         <fragment
                             android:id="@+id/list_activity_info_fragment"
-                            android:name="com.better.alarm.presenter.InfoFragment"
+                            android:name="com.justj.timex.presenter.InfoFragment"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             tools:layout="@layout/info_fragment" />
@@ -93,7 +95,7 @@
             </androidx.appcompat.widget.Toolbar>
 
             <fragment
-                android:name="com.better.alarm.presenter.AppearanceFragment"
+                android:name="com.justj.timex.presenter.AppearanceFragment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:layout="@layout/appearance_fragment" />

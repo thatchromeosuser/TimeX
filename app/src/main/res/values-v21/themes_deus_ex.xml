@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
     <!-- List, details and settings -->
-    <style name="DefaultDeusExTheme" parent="Theme.AppCompat">
+    <style name="DefaultDeusExTheme" parent="Theme.AppCompat.NoActionBar">
         <!-- accent - buttons, accented text -->
         <item name="colorAccent">@color/deusex_secondary</item>
         <!-- FAB color-->

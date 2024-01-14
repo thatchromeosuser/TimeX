@@ -79,16 +79,16 @@ android {
   compileSdk = 33
   defaultConfig {
     versionCode = 31504
-    versionName = "3.15.04"
-    applicationId = "com.better.alarm"
+    versionName = "1.0.0"
+    applicationId = "com.justj.timex"
     minSdk = 16
     targetSdk = 33
-    testApplicationId = "com.better.alarm.test"
+    testApplicationId = "com.justj.timex.test"
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     multiDexEnabled = true
   }
-  namespace = "com.better.alarm"
-  testNamespace = "com.better.alarm.debug"
+  namespace = "com.justj.timex"
+  testNamespace = "com.justj.timex.debug"
   signingConfigs {
     create("release") {
       storeFile = file("upload-keystore.jks")
@@ -115,8 +115,7 @@ android {
   flavorDimensions.add("default")
 
   productFlavors {
-    create("develop") { applicationId = "com.better.alarm" }
-    create("premium") { applicationId = "com.premium.alarm" }
+    create("develop") { applicationId = "com.justj.timex" }
   }
 
   installation {

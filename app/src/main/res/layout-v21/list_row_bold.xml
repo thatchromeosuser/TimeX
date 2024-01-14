@@ -38,7 +38,7 @@
             android:textColor="?android:attr/colorAccent"
             tools:text="label" />
 
-        <com.better.alarm.view.DigitalClock
+        <com.justj.timex.view.DigitalClock
             android:id="@+id/list_row_digital_clock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
                 android:textAllCaps="true"
                 android:textColor="?android:attr/textColorPrimary"
                 android:textSize="20sp" />
-        </com.better.alarm.view.DigitalClock>
+        </com.justj.timex.view.DigitalClock>
 
         <TextView
             android:id="@+id/list_row_daysOfWeek"
@@ -82,7 +82,7 @@
         android:layout_weight="1"
         android:orientation="vertical">
 
-        <com.better.alarm.view.DontPressWithParentLayout
+        <com.justj.timex.view.DontPressWithParentLayout
             android:id="@+id/list_row_on_off_checkbox_container"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -101,11 +101,7 @@
                 android:clickable="false"
                 android:focusable="false" />
 
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
-        </com.better.alarm.view.DontPressWithParentLayout>
+        </com.justj.timex.view.DontPressWithParentLayout>
 
         <LinearLayout
             android:id="@+id/details_button_container"
@@ -113,11 +109,6 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:gravity="center">
-
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
 
             <RelativeLayout
                 android:layout_width="wrap_content"
@@ -145,12 +136,9 @@
                     android:textSize="40sp"
                     android:textStyle="normal"
                     android:tint="?android:attr/textColorPrimary" />
+
             </RelativeLayout>
 
-            <View
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
